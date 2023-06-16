@@ -1,0 +1,304 @@
+{
+  "atms": [
+    {
+      "id": 1,
+      "location": "15 Abay Ave",
+      "city": "Almaty",
+      "state": "Almaty",
+      "zipcode": "050000",
+      "latitude": 43.249293,
+      "longitude": 76.930577,
+      "status": "online"
+    },
+    {
+      "id": 2,
+      "location": "22 Kenesary St",
+      "city": "Astana",
+      "state": "Astana",
+      "zipcode": "010000",
+      "latitude": 51.132746,
+      "longitude": 71.435181,
+      "status": "offline"
+    },
+    {
+      "id": 3,
+      "location": "9 Satpaev St",
+      "city": "Almaty",
+      "state": "Almaty",
+      "zipcode": "050000",
+      "latitude": 43.236864,
+      "longitude": 76.929271,
+      "status": "online"
+    },
+    {
+      "id": 4,
+      "location": "56 Zheltoksan St",
+      "city": "Almaty",
+      "state": "Almaty",
+      "zipcode": "050010",
+      "latitude": 43.238525,
+      "longitude": 76.944526,
+      "status": "online"
+    },
+    {
+      "id": 5,
+      "location": "31 Pushkin St",
+      "city": "Almaty",
+      "state": "Almaty",
+      "zipcode": "050000",
+      "latitude": 43.251726,
+      "longitude": 76.940708,
+      "status": "offline"
+    },
+    {
+      "id": 6,
+      "location": "64 Tauelsizdik Ave",
+      "city": "Astana",
+      "state": "Astana",
+      "zipcode": "010000",
+      "latitude": 51.146316,
+      "longitude": 71.422979,
+      "status": "online"
+    },
+    {
+      "id": 7,
+      "location": "15 Gogol St",
+      "city": "Almaty",
+      "state": "Almaty",
+      "zipcode": "050010",
+      "latitude": 43.235566,
+      "longitude": 76.945154,
+      "status": "online"
+    },
+    {
+      "id": 8,
+      "location": "33 Zhibek Zholy St",
+      "city": "Almaty",
+      "state": "Almaty",
+      "zipcode": "050000",
+      "latitude": 43.250362,
+      "longitude": 76.947472,
+      "status": "offline"
+    },
+    {
+      "id": 9,
+      "location": "22 Momyshuly St",
+      "city": "Astana",
+      "state": "Astana",
+      "zipcode": "010000",
+      "latitude": 51.122023,
+      "longitude": 71.436128,
+      "status": "online"
+    },
+    {
+      "id": 10,
+      "location": "25 Panfilov St",
+      "city": "Almaty",
+      "state": "Almaty",
+      "zipcode": "050000",
+      "latitude": 43.240980,
+      "longitude": 76.959571,
+      "status": "online"
+},
+{
+  "id": 11,
+  "location": "79 Qabanbay Batyr Ave",
+  "city": "Almaty",
+  "state": "Almaty",
+  "zipcode": "050010",
+  "latitude": 43.229822,
+  "longitude": 76.892998,
+  "status": "offline"
+},
+{
+  "id": 12,
+  "location": "44 Abai Ave",
+  "city": "Astana",
+  "state": "Astana",
+  "zipcode": "010000",
+  "latitude": 51.147428,
+  "longitude": 71.420961,
+  "status": "online"
+},
+{
+  "id": 13,
+  "location": "104 Zheltoksan St",
+  "city": "Almaty",
+  "state": "Almaty",
+  "zipcode": "050000",
+  "latitude": 43.244743,
+  "longitude": 76.938039,
+  "status": "online"
+},
+{
+  "id": 14,
+  "location": "55 Kenesary St",
+  "city": "Astana",
+  "state": "Astana",
+  "zipcode": "010000",
+  "latitude": 51.131639,
+  "longitude": 71.429550,
+  "status": "online"
+},
+{
+  "id": 15,
+  "location": "11 Abylai Khan Ave",
+  "city": "Almaty",
+  "state": "Almaty",
+  "zipcode": "050000",
+  "latitude": 43.247101,
+  "longitude": 76.935045,
+  "status": "offline"
+},
+{
+  "id": 16,
+  "location": "68 Kenesary St",
+  "city": "Astana",
+  "state": "Astana",
+  "zipcode": "010000",
+  "latitude": 51.130899,
+  "longitude": 71.438154,
+  "status": "online"
+},
+{
+  "id": 17,
+  "location": "96 Tole bi St",
+  "city": "Almaty",
+  "state": "Almaty",
+  "zipcode": "050000",
+  "latitude": 43.249566,
+  "longitude": 76.926936,
+  "status": "online"
+},
+{
+  "id": 18,
+  "location": "32 Orynbor St",
+  "city": "Astana",
+  "state": "Astana",
+  "zipcode": "010000",
+  "latitude": 51.147027,
+  "longitude": 71.425701,
+  "status": "offline"
+},
+{
+  "id": 19,
+  "location": "45 Kurmangazy St",
+  "city": "Almaty",
+  "state": "Almaty",
+  "zipcode": "050000",
+  "latitude": 43.250084,
+  "longitude": 76.934537,
+  "status": "online"
+},
+{
+  "id": 20,
+  "location": "88 Zhansugurov St",
+  "city": "Astana",
+  "state": "Astana",
+  "zipcode": "010000",
+  "latitude": 51.139385,
+  "longitude": 71.409782,
+  "status": "offline"
+},
+{
+"id": 21,
+"location": "67 Tole bi St",
+"city": "Almaty",
+"state": "Almaty",
+"zipcode": "050000",
+"latitude": 43.240829,
+"longitude": 76.922621,
+"status": "online"
+},
+{
+"id": 22,
+"location": "3 Satpayev St",
+"city": "Astana",
+"state": "Astana",
+"zipcode": "010000",
+"latitude": 51.134715,
+"longitude": 71.418196,
+"status": "online"
+},
+{
+"id": 23,
+"location": "52 Al Farabi Ave",
+"city": "Almaty",
+"state": "Almaty",
+"zipcode": "050012",
+"latitude": 43.225798,
+"longitude": 76.936903,
+"status": "online"
+},
+{
+"id": 24,
+"location": "91 Kunayev St",
+"city": "Astana",
+"state": "Astana",
+"zipcode": "010000",
+"latitude": 51.133719,
+"longitude": 71.401527,
+"status": "online"
+},
+{
+"id": 25,
+"location": "117 Bogenbai Batyr St",
+"city": "Almaty",
+"state": "Almaty",
+"zipcode": "050000",
+"latitude": 43.254082,
+"longitude": 76.931731,
+"status": "online"
+},
+{
+"id": 26,
+"location": "16 Mangilik El Ave",
+"city": "Astana",
+"state": "Astana",
+"zipcode": "010000",
+"latitude": 51.132986,
+"longitude": 71.421785,
+"status": "offline"
+},
+{
+"id": 27,
+"location": "57 Auezov St",
+"city": "Almaty",
+"state": "Almaty",
+"zipcode": "050012",
+"latitude": 43.238637,
+"longitude": 76.947470,
+"status": "online"
+},
+{
+"id": 28,
+"location": "22 Turan Ave",
+"city": "Astana",
+"state": "Astana",
+"zipcode": "010000",
+"latitude": 51.140321,
+"longitude": 71.410465,
+"status": "online"
+},
+{
+"id": 29,
+"location": "125 Tole bi St",
+"city": "Almaty",
+"state": "Almaty",
+"zipcode": "050000",
+"latitude": 43.254693,
+"longitude": 76.925388,
+"status": "offline"
+},
+{
+"id": 30,
+"location": "65 Qabanbay Batyr Ave",
+"city": "Astana",
+"state": "Astana",
+"zipcode": "010000",
+"latitude": 51.129124,
+"longitude": 71.426219,
+"status": "online"
+}
+]
+}

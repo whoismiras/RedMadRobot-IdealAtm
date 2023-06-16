@@ -1,0 +1,96 @@
+name: ideal_atm
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+# Location
+  map_launcher:
+  flutter_map: ^3.1.0
+  latlng: ^0.2.0
+  geolocator: ^8.2.1
+  geocoding: ^2.0.4
+
+  # UI
+  cupertino_icons: ^1.0.2
+  awesome_bottom_bar: ^1.2.1
+  flutter_svg: ^1.1.6
+  flutter_lints: ^2.0.0
+  carousel_slider: ^4.2.1
+  expandable: ^5.0.1
+  expansion_tile_card: ^2.0.0
+
+  # bloc
+  bloc: ^8.1.1
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.2
+
+ # Localization
+  provider: ^6.0.5
+
+  # Functionality
+  qr_code_scanner: ^1.0.1
+  connectivity_plus: ^3.0.3
+
+  #Misc
+  flutter_launcher_icons: ^0.11.0
+  formz: ^0.5.0+1
+  share_plus: ^6.3.1
+  fluttertoast: ^8.2.1
+  dio: ^5.1.0
+  get_it: ^7.2.0
+  flutter_secure_storage: ^8.0.0
+  mask_text_input_formatter: ^2.4.0
+  pdfx: ^2.3.0
+  intl: any
+  shared_preferences: ^2.1.0
+  flutter_rating_bar: ^4.0.1
+  vertical_barchart: ^2.0.0+2
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  test: ^1.16.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/bank_logo.png"
+
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+
+  assets:
+
+    - assets/icons/
+    - assets/images/
+    - assets/data/atms.json
+    - assets/pdfs/
+
+  fonts:
+    - family: MarkPro
+      fonts:
+        - asset: fonts/Mark-Pro.ttf
+        - asset: fonts/MetaPro.ttf
+
+flutter_intl:
+  enabled: false

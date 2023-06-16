@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "940180210794",
+    "project_id": "bootcamp-team-1",
+    "storage_bucket": "bootcamp-team-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940180210794:android:0c52c66f727d3e59037613",
+        "android_client_info": {
+          "package_name": "com.example.ideal_atm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940180210794-p3ggc15gv65fositlmcn92ffpgv41u0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdF9NwktqXInVdu_hGFNOD4HLWTVHFRy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940180210794-p3ggc15gv65fositlmcn92ffpgv41u0p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "940180210794-igo8s7n896bcqvp92jss0o9290ca1up3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.redmadrobot.bootcamp.team1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

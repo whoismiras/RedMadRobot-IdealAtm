@@ -1,0 +1,20 @@
+stages:
+  - app_distribution
+
+before_script:
+  - PATH=/Users/ios/Developer/flutter/bin:$PATH
+  - cd "$CI_PROJECT_DIR"
+  - flutter clean
+  - flutter pub get
+
+app_distribution:
+  stage: app_distribution
+  script:
+    - sh scripts/build_qa.sh
+  tags:
+    - flutter-bootcamp
+  only:
+    refs:
+      - tags
+    variables:
+      - $CI_COMMIT_TAG =~ /qa.*/

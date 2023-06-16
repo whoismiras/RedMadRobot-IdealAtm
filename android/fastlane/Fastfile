@@ -1,0 +1,27 @@
+# You can find the documentation at 
+# https://docs.fastlane.tools#
+# https://docs.fastlane.tools/actions
+# https://docs.fastlane.tools/plugins/available-plugins
+
+path_to_json = "google-services.json"
+builded_apk_path = "../build/app/outputs/flutter-apk/app-release.apk"
+
+firebase_cli_token = ENV["firebase_cli_token"]
+firebase_app_id = ENV["firebase_app_id_android"]
+tester_group = ENV["tester_group"]
+
+default_platform(:android)
+
+platform :android do
+  desc "Deploy a new version to the App Distribution"
+  lane :upload_to_app_distribution do
+    firebase_app_distribution(
+      app: firebase_app_id,
+      googleservice_info_plist_path: path_to_json,
+      apk_path: builded_apk_path,
+      firebase_cli_token: firebase_cli_token,
+      release_notes: "Some change log about current build",
+      groups: tester_group
+    )
+  end
+end
